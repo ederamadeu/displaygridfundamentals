@@ -1,20 +1,21 @@
-/*reset CSS*/
-@import "./resetStyle.css";
+/*Reset CSS*/
 
-/*Estilos CSS Grid Layout*/
-@import "./GridStyle.css";
+@import "./reset.css";
 
-/*Estilo do header*/
+/*Grid Geral*/
+@import "gridGeral.css";
+
+/*Header*/
 @import "./header.css";
 
-/*Estilos Sidenav*/
+/*Sidenav*/
 @import "./sidenav.css";
 
-/*Estilos Content*/
-@import "./content.css";
+/*Footer*/
+@import "./footer.css";
 
-/*Estilos Anuncios*/
+/*Anuncios*/
 @import "./anuncios.css";
 
-/*Estilos Footer*/
-@import "./footer.css";
+/*Conteúdo*/
+@import "./content.css";

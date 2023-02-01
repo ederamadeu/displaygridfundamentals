@@ -1,7 +1,8 @@
-/*Grid Geral*/
+/* GRID GERAL */
+
 .estrutura {
   display: grid;
-  grid-template-columns: minmax(160px, 3fr 300px);
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
   grid-template-areas:
     "header header header"
     "sidenav content anuncios"
@@ -19,9 +20,11 @@
 .content {
   grid-area: content;
 }
+
 .anuncios {
   grid-area: anuncios;
 }
+
 .footer {
   grid-area: footer;
 }
